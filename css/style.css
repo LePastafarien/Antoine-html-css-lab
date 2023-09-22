@@ -35,17 +35,37 @@ body
 /* Q4: Style any element with class value of “content”*/
 .content
 {
-    /* Q3.a: The line height (of the text) should be 1.4em*/
+    /* Q4.a: The line height (of the text) should be 1.4em*/
     line-height: 1.4em;
-    /* Q3.b: 10px padding to all the sides*/
+    /* Q4.b: 10px padding to all the sides*/
     padding: 10px;
 }
 
-/* Q4: Style the “header, nav, and footer” elements to share the following:*/
+/* Q5: Style the “header, nav, and footer” elements to share the following:*/
 header,nav,footer
 {
-    /* Q4.a: Any Dark/Light background colour*/
+    /* Q5.a: Any Dark/Light background colour*/
     background-color: #10ADDE;
-    /* Q4.a: Any Dark/Light foreground colour (normal font color)*/
+    /* Q5.a: Any Dark/Light foreground colour (normal font color)*/
     color: #31396E;
+}
+
+/* Q6: Style the unordered list element <ul> which is inside <nav> element*/
+nav > ul
+{
+    /* Q6.a: 0 margin from all the sides*/
+    margin: 0;
+    /* Q6.b: 5px padding from all the sides*/
+    padding: 5px;
+}
+
+/* Q7: Style the list items <li> of the main navigation (nav), or inside the nav element:*/
+nav > ul > li
+{
+    /* Q7.a: To be displayed horizontally*/
+    display: inline-block;
+    /* Q7.b: Adding margin of 40px to the right of each list item*/
+    padding-right: 40px;
+    /* Q7.c: All the navigation items should be displayed as Uppercase*/
+    text-transform: uppercase;
 }
