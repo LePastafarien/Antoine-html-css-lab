@@ -10,7 +10,7 @@
 body
 {
     /* Q2.a: Any colour you prefer for the text*/
-    color: #1CEDEA;
+    color: #10ADDE;
     /* Q2.b: A background image, you can use any one from the 7 samples of dark-woodx.jpg.*/
     background-image: url("../assets/images/dark-wood.jpg");
     /* Q2.c: The font family (face) is at least 3 options of any sans-serif fonts*/
@@ -28,5 +28,24 @@ body
     - 5px margin from top and bottom
     - The div has to be aligned centered based in the browser window*/
     margin: 5px auto;
+    /* Q3.d: Apply any background colour that you prefer*/
+    background-color: #31396E;
 }
 
+/* Q4: Style any element with class value of “content”*/
+.content
+{
+    /* Q3.a: The line height (of the text) should be 1.4em*/
+    line-height: 1.4em;
+    /* Q3.b: 10px padding to all the sides*/
+    padding: 10px;
+}
+
+/* Q4: Style the “header, nav, and footer” elements to share the following:*/
+header,nav,footer
+{
+    /* Q4.a: Any Dark/Light background colour*/
+    background-color: #10ADDE;
+    /* Q4.a: Any Dark/Light foreground colour (normal font color)*/
+    color: #31396E;
+}
