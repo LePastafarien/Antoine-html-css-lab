@@ -1,15 +1,32 @@
 /* Q#: All the elements have margin of 0 from the top, bottom, left, and right */
+/* Q1: All the HTML5 new elements that you have used in your code should be displayed as block-level elements */
 *
 {
     margin: 0;
     display: block;
 }
 
+/* Q2: The <body> element has to be styled with : */
 body
 {
-    color: #11D5ED;
-    background-image: url("assets/images/dark-wood2.jpg");
+    /* Q2.a: Any colour you prefer for the text*/
+    color: #1CEDEA;
+    /* Q2.b: A background image, you can use any one from the 7 samples of dark-woodx.jpg.*/
+    background-image: url("../assets/images/dark-wood.jpg");
+    /* Q2.c: The font family (face) is at least 3 options of any sans-serif fonts*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* Q2.d: Margin 0 for all the four sides (top, bottom, left, right)*/
     margin: 0;
 }
 
+/* Q3: Style the <div> element with class "container"*/
+.container
+{
+    /* Q3.a: The width value can be 950px*/
+    width: 950px;
+    /* Q3.b+c:
+    - 5px margin from top and bottom
+    - The div has to be aligned centered based in the browser window*/
+    margin: 5px auto;
+}
 
