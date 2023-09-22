@@ -69,3 +69,38 @@ nav > ul > li
     /* Q7.c: All the navigation items should be displayed as Uppercase*/
     text-transform: uppercase;
 }
+
+/* Q8: Add the 4 pseudo classes effect to the anchor tags/elements of the main navigation list items, the colour should be changed*/
+
+/* Q8.a: The normal link -> :link*/
+nav > ul > li > a:link
+{
+    color: #31396E;
+}
+
+/* Q8.b: The visited link -> :visited*/
+nav > ul > li > a:visited
+{
+    color: #DB2AD9;
+}
+
+/* Q8.c: The hover link -> :hover*/
+nav > ul > li > a:hover
+{
+    color: #662BE3;
+}
+
+/* Q8.d: The active link -> :active*/
+nav > ul > li > a:active
+{
+    color: #DB3262;
+}
+
+/* Q9: Style any anchor <a> element*/
+a
+{
+    /* Q9.a: Any colour you like*/
+    color: #DB2AD9;
+    /* Q9.b: No underline*/
+    text-decoration: none;
+}
