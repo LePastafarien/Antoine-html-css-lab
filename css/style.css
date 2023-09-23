@@ -129,94 +129,131 @@ h1,h2,h3
 }
 
 
+/* Q12: Style the <audio> and <video> elements*/
 video
 {
+    /* Q12.a+b:
+    - Centre any audio or video element (horizontally)
+    - With margin of 10px from the top and bottom*/
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px auto;
 }
 
+/* Q13: Style any <table> element:*/
 table
 {
+    /* Q13.a: The width is 800px*/
     width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    /* Q13.b: Centre the table horizontally with 10px of margining from the top and bottom sides*/
+    margin: 10px auto;
+    /* Q13.c: The table border has to be collapsed*/
     border-collapse: collapse;
 }
 
+/* Q14: Style both the <td> and <th> element of any table:*/
 th,td
 {
+    /* Q14.a: Having a border with any settings you like*/
     border: 2px solid #8E0B9E;
+    /* Q14.b: Padding of 2px from the top/bottom and 5px from the left/right*/
     padding: 2px 5px;
+    /* Q14.c: Any background colour (light/dark)*/
     background-color: #4E1087;
 }
 
+/* Q15: Style both the <th> inside any table and the <td> inside the <tfoot>*/
 th,tfoot > tr > td
 {
+    /* Q15.a: With Uppercase letters*/
     text-transform: uppercase;
+    /* Q15.b: Any background colour (dark/light)*/
     background-color: #009FA1;
+    /* Q15.c: Any colour (dark/light)*/
     color: #470C8A;
 }
 
+/* Q16: Style any <dt> element:*/
 dt
 {
+    /* Q16.a: Make it bold*/
     font-weight: bold;
 }
-
 dd
 {
     margin-left: 40px;
 }
 
+/* Q17: Style any <footer> element:*/
 footer
 {
+    /* Q17.a: Change the font size to be 80% of the default font size or of the font size of the body*/
     font-size: 80%;
+    /* Q17.b: Align your text to the centre of the table*/
     text-align: center;
+    /* Q17.c: Add 1px of padding from the top/bottom and 0 from the right/left*/
     padding: 1px 0px;
 }
 
+/* Q18: Style any <iframe> element:*/
 iframe
 {
+    /* Q18.a: Add margin of 10px for top/bottom*/
     display: block;
+    /* Q18.b: Centre the iframe horizontally*/
     margin: 10px auto;
 }
 
+/* Q19: Style any <fieldset> element:*/
 fieldset
 {
+    /* Q19.a: Add width of 500px*/
     width: 500px;
+    /* Q19.b: Add margin of 20px for top/bottom and centre the fieldset horizontally*/
     margin: 20px auto;
+    /* Q19.c: Add border with any style you prefer*/
     border: 2px solid #8E0B9E;
+    /* Q19.d: Add background colour*/
     background-color: #4E1087;
 }
 
+/* Q20: Style any <legend> element:*/
 legend
 {
+    /* Q20.a: Italic font style*/
     font-style: italic;
+    /* Q20.b: Different front and background colour*/
     background-color: #009FA1;
     color: #470C8A;
+    /* Q20.c: Margin of 0 from the top/bottom and 10px from the left/right*/
     margin: 0px 10px;
+    /* Q20.d: Padding of 0 from top/bottom and 5px from the left/right*/
     padding: 0px 5px;
+    /* Q20.e: Give it a rounded border with any size or setting you prefer*/
     border: 2px solid #8E0B9E;
     border-radius: 5px;
 }
 
+/* Q21: Style the <input> element that has an attribute named “type” with value of “submit”:*/
 input[type=submit]
 {
+    /* Q21.a: Border with any style you like*/
     border: 2px solid #8E0B9E;
+    /* Q21.b: Padding of 5px for all the sides*/
     padding: 5px;
+    /* Q21.c: Any background colour you prefer*/
     background-color: #009FA1;
+    /* Q21.d: Any colour you prefer*/
     color: #470C8A;
 }
 
+/* Q22: Style the same <input> element that has an attribute named “type” with value of “submit” but with the pseudo class for the hover state*/
 input[type=submit]:hover
 {
     border: 2px solid #8E0B9E;
     padding: 5px;
+    /* Q22.a: Change its text colour and its background colour*/
     background-color: #470C8A;
     color: #009FA1;
+    /* Q22.b: Change the mouse pointer to look like a hand (the normal mouse icon for a link):*/
     cursor:pointer;
 }
