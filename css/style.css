@@ -1,9 +1,7 @@
 /* Q#: All the elements have margin of 0 from the top, bottom, left, and right */
-/* Q1: All the HTML5 new elements that you have used in your code should be displayed as block-level elements */
 *
 {
     margin: 0;
-    display: block;
 }
 
 /* Q2: The <body> element has to be styled with : */
@@ -103,4 +101,122 @@ a
     color: #DB2AD9;
     /* Q9.b: No underline*/
     text-decoration: none;
+}
+
+/* Q10: Style the three headings: h1, h2, and h3:*/
+h1,h2,h3
+{
+    /* Q10.a: To have margin of 10px for all the sides*/
+    margin: 10px;
+    /* Q10.b: With Uppercase letters*/
+    text-transform: uppercase;
+    /* Q10.c: Different dark/light colour*/
+    color: #1CD686;
+}
+
+/* Q11: Style the custom class named “img-centre”*/
+.img-centre
+{
+    display: block;
+    /* Q11.a: Centre the image horizontally*/
+    margin-left: auto;
+    margin-right: auto;
+    /* Q11.b: Having margin of 5px from the top and bottom*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* Q11.c: Having padding of 2px to all the sides*/
+    padding: 2px;
+}
+
+
+video
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table
+{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+}
+
+th,td
+{
+    border: 2px solid #8E0B9E;
+    padding: 2px 5px;
+    background-color: #4E1087;
+}
+
+th,tfoot > tr > td
+{
+    text-transform: uppercase;
+    background-color: #009FA1;
+    color: #470C8A;
+}
+
+dt
+{
+    font-weight: bold;
+}
+
+dd
+{
+    margin-left: 40px;
+}
+
+footer
+{
+    font-size: 80%;
+    text-align: center;
+    padding: 1px 0px;
+}
+
+iframe
+{
+    display: block;
+    margin: 10px auto;
+}
+
+fieldset
+{
+    width: 500px;
+    margin: 20px auto;
+    border: 2px solid #8E0B9E;
+    background-color: #4E1087;
+}
+
+legend
+{
+    font-style: italic;
+    background-color: #009FA1;
+    color: #470C8A;
+    margin: 0px 10px;
+    padding: 0px 5px;
+    border: 2px solid #8E0B9E;
+    border-radius: 5px;
+}
+
+input[type=submit]
+{
+    border: 2px solid #8E0B9E;
+    padding: 5px;
+    background-color: #009FA1;
+    color: #470C8A;
+}
+
+input[type=submit]:hover
+{
+    border: 2px solid #8E0B9E;
+    padding: 5px;
+    background-color: #470C8A;
+    color: #009FA1;
+    cursor:pointer;
 }
